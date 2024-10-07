@@ -1,3 +1,3 @@
-## App Platform Test
+## Fun App
 
-This repo is for testing app platform
+Isn't it fun!

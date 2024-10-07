@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #e0f7fa; /* Light cyan background */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    color: #00796b; /* Dark teal color */
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #004d40; /* Darker teal for subheadings */
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    background-color: #00796b; /* Teal background */
+    color: white; /* White text */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #004d40; /* Darker teal on hover */
+}
+
+.hidden {
+    display: none;
+}
+
+#timerDisplay {
+    font-size: 48px;
+    margin: 20px 0;
+    color: #d32f2f; /* Red for timer */
+}
+
+#gameCanvas {
+    background-color: #fff;
+    border: 2px solid #00796b; /* Teal border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+#score {
+    font-size: 24px;
+    color: #00796b; /* Same color as buttons */
+    margin-top: 10px;
+}
